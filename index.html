@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Flower By May</title>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="carousel.js">
+
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-left">
+      <img src="images/logo.png" alt="logo">
+      <h1> Flower by May</h1>
+    </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="event.html">Évènement</a></li>
+          <li><a href="compo.html">Composition</a></li>
+          <li><a href="atelier.html">Atelier</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <swiper-container class="mySwiper" pagination="true" pagination-type="progressbar" navigation="true">
+      <swiper-slide><img src="images/panneau1.png" alt="fleur"></swiper-slide>
+      <swiper-slide><img src="images/panneau2.png" alt="fleur"></swiper-slide>
+      <swiper-slide><img src="images/panneau3.png" alt="fleur"></swiper-slide>
+
+    </swiper-container>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+  
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="compo.html"><img src="images/fleur.png" alt="fleurs"></a>
+            <div class="card-body">
+              <p class="card-text">Composition personnailisée</p>
+              <a href="compo.html"><button type="button" class="btn btn-sm btn-outline-secondary">Voir</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="atelier.html"><img src="images/atelier.png" alt="fleurs"></a>
+            <div class="card-body">
+              <p class="card-text">Attelier de création.</p>
+              <a href="atelier.html"><button type="button" class="btn btn-sm btn-outline-secondary">Voir</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="event.html"><img src="images/arche.png" alt="fleurs"></a>
+            <div class="card-body">
+              <p class="card-text">Évènementiel</p>
+              <a href="event.html"><button type="button" class="btn btn-sm btn-outline-secondary">Voir</button></a>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Flower by May - Tous droits réservés ©2023</p>
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
