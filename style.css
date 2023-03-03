@@ -41,10 +41,7 @@ header h1 {
   font-size: 2rem;
 }
 
-header nav ul {
-  display: flex;
-  margin-top:15px;
-}
+
 
 header nav li {
   margin-left: 1rem;
@@ -64,6 +61,27 @@ header nav a:hover {
 .nav-left img{
   width:15%;
 }
+
+@media only screen and (min-width: 767px) {
+  header nav ul {
+    display: flex;
+    margin-top:15px;
+  }
+  .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: none;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header nav ul {
+    display: none;
+    margin-top:15px;
+  }
+}
+
+
 
 /* Hero styles */
 .hero {
@@ -223,3 +241,4 @@ footer {
   margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
   transform: translateY(-100%); /* tiré de la moitié de sa propre hauteur */
 }
+
