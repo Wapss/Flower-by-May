@@ -236,9 +236,3 @@ footer {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-
-.col-md-7{
-  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
-  transform: translateY(-100%); /* tiré de la moitié de sa propre hauteur */
-}
-
